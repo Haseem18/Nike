@@ -17,7 +17,7 @@ mainElement.style.top = `${headerHeight}px`;
 if (screenWidth <= 600) {
   sidebarElement.style.height = `calc(100vh - ${headerHeight}px)`;
   sidebarElement.style.top = `${headerHeight}px`;
-  sidebarElement.style.left = "-400px";
+  sidebarElement.style.left = "-1400px";
   
   menuElement.addEventListener("click", () => {
     sidebarElement.style.left = "0px";
